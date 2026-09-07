@@ -3,14 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Con esta pagina estamos aprendiendo">
     <title>Document</title>
+    <style>
+        a:focus {
+            outline: 3px solid #005fcc;
+            outline-offset: 3 px;
+        }
+
+        body{
+            background-color: beige;
+            color: rgb(97, 66, 26);
+        }
+    </style>
 </head>
 <body>
-    <h1>Yensi Bautista</h1>
-    <h2>IESTP</h2>
-    <h3>Casa</h3>
-    <h4>ssss</h4>
-    <h5>ttt</h5>
-    <img src="media/imagenes/uni.jpg" alt="imagendeunamontaña">
+    <header>
+        <h1>Mis proyectos</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Nuestros productos</h2>
+        <button>Comprar Aquí</button>  <!--sn acciones-->
+
+
+        <img src="media/imagenes/FOTOINSTITUTO1.jpeg" alt="logodeinstituto" >
+        <img src="media/imagenes/images.jpg" alt="">
+
+        <form>
+            <label for="nombre"></label>
+            <input type="text" placeholder="Ingrese usario" name="nombre">
+
+            <label for="contra"></label>
+            <input type="text" placeholder="Ingrese contraseña" id="contra">
+            <button>Ingresa</button>
+        </form>
+
+        <!--Los enlaces pata navegar-->
+        <a href="nosotros"> Ir a nosotros</a>
+        <!--Los enlaces pata navegar-->
+        <button>Guardar</button>
+
+    </main>
+
+    <footer>
+        <p>Institución Trujillo</p>
+    </footer>
+
 </body>
 </html>
